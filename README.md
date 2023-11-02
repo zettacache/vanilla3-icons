@@ -4,6 +4,7 @@
 
 ## Installation
 
+[VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=zettacache.vanilla3-icons)
 
 ## Contributing
 
