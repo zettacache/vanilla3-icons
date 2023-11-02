@@ -1,14 +1,30 @@
 {
     "iconDefinitions": {
-        "_ext_declaration": {
-            "iconPath": "ext-declaration.png"
+        "_ext_ts": {
+            "iconPath": "ext-ts.png"
         },
-        "_ext_jsx_tsx": {
-            "iconPath": "ext-jsx-tsx.png"
+        "_ext_client_ts": {
+            "iconPath": "ext-client-ts.png"
+        },
+        "_ext_server_ts": {
+            "iconPath": "ext-server-ts.png"
+        },
+        "_ext_controller_ts": {
+            "iconPath": "ext-controller-ts.png"
+        },
+        "_ext_service_ts": {
+            "iconPath": "ext-service-ts.png"
+        },
+        "_ext_d_ts": {
+            "iconPath": "ext-d-ts.png"
+        },
+        "_ext_tsx": {
+            "iconPath": "ext-tsx.png"
         },
         "_ext_md": {
             "iconPath": "ext-md.png"
         },
+
         "_file": {
             "iconPath": "file.png"
         },
@@ -21,38 +37,39 @@
         "_file_tsconfig_json": {
             "iconPath": "file-tsconfig-json.png"
         },
+        "_file_network_ts": {
+            "iconPath": "file-network-ts.png"
+        },
+
+        "_folder": {
+            "iconPath": "folder.png"
+        },
+        "_folder_src": {
+            "iconPath": "folder-src.png"
+        },
+        "_folder_types": {
+            "iconPath": "folder-types.png"
+        },
         "_folder_client": {
             "iconPath": "folder-client.png"
-        },
-        "_folder_components": {
-            "iconPath": "folder-components-yellow.png"
         },
         "_folder_server": {
             "iconPath": "folder-server.png"
         },
         "_folder_shared": {
-            "iconPath": "folder-shared-cloud.png"
+            "iconPath": "folder-shared.png"
+        },
+        "_folder_components": {
+            "iconPath": "folder-components-yellow.png"
         },
         "_folder_singletons": {
             "iconPath": "folder-singletons-yellow.png"
         },
-        "_folder_src": {
-            "iconPath": "folder-src.png"
+        "_folder_cmdr": {
+            "iconPath": "folder-cmdr.png"
         },
-        "_folder": {
-            "iconPath": "folder.png"
-        },
-        "_script_client": {
-            "iconPath": "script-client.png"
-        },
-        "_script_module": {
-            "iconPath": "script-module.png"
-        },
-        "_script_server": {
-            "iconPath": "script-server.png"
-        },
-        "_script_src": {
-            "iconPath": "script-src.png"
+        "_folder_cmdr_commands": {
+            "iconPath": "folder-cmdr-commands.png"
         }
     },
 
@@ -60,38 +77,65 @@
     "folder": "_folder",
 
     "fileExtensions": {
-        "md": "_ext_md",
-        "js": "_script_module",
-        "jsx": "_ext_jsx_tsx",
-        "client.js": "_script_client",
-        "server.js": "_script_server",
-        "d.ts": "_ext_declaration",
-        "ts": "_script_module",
-        "tsx": "_ext_jsx_tsx",
-        "client.ts": "_script_client",
-        "server.ts": "_script_server"
+        "ts": "_ext_ts",
+        "lua": "_ext_ts",
+        "luau": "_ext_ts",
+
+        "client.ts": "_ext_client_ts",
+        "client.lua": "_ext_server_ts",
+        "client.luau": "_ext_server_ts",
+
+        "server.ts": "_ext_server_ts",
+        "server.lua": "_ext_server_ts",
+        "server.luau": "_ext_server_ts",
+
+        "controller.ts": "_ext_controller_ts",
+        "controller.lua": "_ext_controller_ts",
+        "controller.luau": "_ext_controller_ts",
+
+        "service.ts": "_ext_service_ts",
+        "service.lua": "_ext_service_ts",
+        "service.luau": "_ext_service_ts",
+
+        "d.ts": "_ext_d_ts",
+
+        "jsx": "_ext_tsx",
+        "tsx": "_ext_tsx",
+
+        "md": "_ext_md"
     },
 
     "languageIds": {
-        "js": "_script_module",
-        "ts": "_script_module",
-        "jsx": "_ext_jsx_tsx",
-        "tsx": "_ext_jsx_tsx"
+        "lua": "_ext_ts",
+        "luau": "_ext_ts",
+        "ts": "_ext_ts",
+        "jsx": "_ext_tsx",
+        "tsx": "_ext_tsx"
     },
 
     "folderNames": {
+        "src": "_folder_src",
+        "types": "_folder_types",
+
         "client": "_folder_client",
+        "server": "_folder_server",
+        "shared": "_folder_shared",
+
         "components": "_folder_components",
         "controllers": "_folder_singletons",
-        "server": "_folder_server",
         "services": "_folder_singletons",
-        "shared": "_folder_shared",
-        "src": "_folder_src"
+
+        "cmdr": "_folder_cmdr",
+        "commands": "_folder_cmdr_commands"
     },
 
     "fileNames": {
         "package.json": "_file_package_json",
         "default.project.json": "_file_default_project_json",
-        "tsconfig.json": "_file_tsconfig_json"
+        "tsconfig.json": "_file_tsconfig_json",
+
+        "network.ts": "_file_network_ts",
+
+        "cmdr.client.ts": "_folder_cmdr"
     }
 }
