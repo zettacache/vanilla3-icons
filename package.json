@@ -1,13 +1,13 @@
 {
 	"name": "vanilla3-icons",
 	"displayName": "Vanilla3 Icons",
-	"description": "Port of Vanilla3 Icons to VSCode originally created by Eltobb for Roblox Studio.",
+	"description": "Port of Vanilla3 Icons to VSCode originally created by Elttob for Roblox Studio.",
 	"license": "MIT",
 	"categories": [
 		"Themes"
 	],
-	"version": "1.4.4",
-	"publisher": "zetta",
+	"version": "1.4.5",
+	"publisher": "zettacache",
 	"engines": {
 		"vscode": "*"
 	},
