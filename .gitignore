@@ -1,2 +1,3 @@
 *.visx
 /xcf/*
+.DS_Store
