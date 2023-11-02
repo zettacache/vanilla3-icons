@@ -2,6 +2,7 @@
 	"name": "vanilla3-icons",
 	"displayName": "Vanilla3 Icons",
 	"description": "Port of Vanilla3 Icons to VSCode originally created by Eltobb for Roblox Studio.",
+	"license": "MIT",
 	"categories": [
 		"Themes"
 	],
