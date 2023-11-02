@@ -1,27 +1,25 @@
 {
-	"name": "wobbly-icon-theme",
-	"displayName": "%displayName%",
-	"description": "%description%",
+	"name": "vanilla3-icons",
+	"displayName": "Vanilla3 Icons",
+	"description": "Port of Vanilla3 Icons to VSCode originally created by Eltobb for Roblox Studio.",
 	"categories": [
 		"Themes"
 	],
 	"version": "1.4.4",
-	"publisher": "breabcrumb",
-	"icon": "logos/logo.png",
-	"license": "MIT",
+	"publisher": "zetta",
 	"engines": {
 		"vscode": "*"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/BreadcrumbIsTaken/wobbly-icon-theme"
+		"url": "https://github.com/zettacache/vanilla3-icons"
 	},
 	"contributes": {
 		"iconThemes": [
 			{
-				"id": "wobbly-icon-theme",
-				"label": "Wobbly Icon Theme",
-				"path": "./icons/wobbly-icon-theme.json"
+				"id": "vanilla3-icons",
+				"label": "Vanilla3 Icons",
+				"path": "./icons/vanilla3-icons.json"
 			}
 		]
 	}

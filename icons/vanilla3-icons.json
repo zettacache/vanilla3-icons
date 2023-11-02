@@ -1,0 +1,97 @@
+{
+    "iconDefinitions": {
+        "_ext_declaration": {
+            "iconPath": "ext-declaration.png"
+        },
+        "_ext_jsx_tsx": {
+            "iconPath": "ext-jsx-tsx.png"
+        },
+        "_ext_md": {
+            "iconPath": "ext-md.png"
+        },
+        "_file": {
+            "iconPath": "file.png"
+        },
+        "_file_package_json": {
+            "iconPath": "file-package-json.png"
+        },
+        "_file_default_project_json": {
+            "iconPath": "file-default-project-json.png"
+        },
+        "_file_tsconfig_json": {
+            "iconPath": "file-tsconfig-json.png"
+        },
+        "_folder_client": {
+            "iconPath": "folder-client.png"
+        },
+        "_folder_components": {
+            "iconPath": "folder-components-yellow.png"
+        },
+        "_folder_server": {
+            "iconPath": "folder-server.png"
+        },
+        "_folder_shared": {
+            "iconPath": "folder-shared-cloud.png"
+        },
+        "_folder_singletons": {
+            "iconPath": "folder-singletons-yellow.png"
+        },
+        "_folder_src": {
+            "iconPath": "folder-src.png"
+        },
+        "_folder": {
+            "iconPath": "folder.png"
+        },
+        "_script_client": {
+            "iconPath": "script-client.png"
+        },
+        "_script_module": {
+            "iconPath": "script-module.png"
+        },
+        "_script_server": {
+            "iconPath": "script-server.png"
+        },
+        "_script_src": {
+            "iconPath": "script-src.png"
+        }
+    },
+
+    "file": "_file",
+    "folder": "_folder",
+
+    "fileExtensions": {
+        "md": "_ext_md",
+        "js": "_script_module",
+        "jsx": "_ext_jsx_tsx",
+        "client.js": "_script_client",
+        "server.js": "_script_server",
+        "d.ts": "_ext_declaration",
+        "ts": "_script_module",
+        "tsx": "_ext_jsx_tsx",
+        "client.ts": "_script_client",
+        "server.ts": "_script_server"
+    },
+
+    "languageIds": {
+        "js": "_script_module",
+        "ts": "_script_module",
+        "jsx": "_ext_jsx_tsx",
+        "tsx": "_ext_jsx_tsx"
+    },
+
+    "folderNames": {
+        "client": "_folder_client",
+        "components": "_folder_components",
+        "controllers": "_folder_singletons",
+        "server": "_folder_server",
+        "services": "_folder_singletons",
+        "shared": "_folder_shared",
+        "src": "_folder_src"
+    },
+
+    "fileNames": {
+        "package.json": "_file_package_json",
+        "default.project.json": "_file_default_project_json",
+        "tsconfig.json": "_file_tsconfig_json"
+    }
+}
