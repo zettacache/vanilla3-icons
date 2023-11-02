@@ -24,15 +24,15 @@
         "_ext_md": {
             "iconPath": "ext-md.png"
         },
+        "_ext_project_json": {
+            "iconPath": "ext-project-json.png"
+        },
 
         "_file": {
             "iconPath": "file.png"
         },
         "_file_package_json": {
             "iconPath": "file-package-json.png"
-        },
-        "_file_default_project_json": {
-            "iconPath": "file-default-project-json.png"
         },
         "_file_tsconfig_json": {
             "iconPath": "file-tsconfig-json.png"
@@ -102,7 +102,9 @@
         "jsx": "_ext_tsx",
         "tsx": "_ext_tsx",
 
-        "md": "_ext_md"
+        "md": "_ext_md",
+
+        "project.json": "_ext_project_json"
     },
 
     "languageIds": {
@@ -131,7 +133,6 @@
 
     "fileNames": {
         "package.json": "_file_package_json",
-        "default.project.json": "_file_default_project_json",
         "tsconfig.json": "_file_tsconfig_json",
 
         "network.ts": "_file_network_ts",
