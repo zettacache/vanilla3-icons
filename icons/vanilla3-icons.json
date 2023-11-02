@@ -104,7 +104,7 @@
 
         "md": "_ext_md",
 
-        "project.json": "ext_project_json"
+        "project.json": "_ext_project_json"
     },
 
     "languageIds": {
